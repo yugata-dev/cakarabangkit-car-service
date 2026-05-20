@@ -58,7 +58,7 @@ Untuk mengaktifkannya secara penuh:
 
 ## 📸 Lisensi & Kredit
 
-* Desain & Kode oleh [Yugata Halimawan](https://www.google.com/search?q=https://github.com/gatahaimawan-spec)
+* Desain & Kode oleh [Yugata Halimawan]([https://www.google.com/search?q=https://github.com/gatahaimawan-spec](https://github.com/yugata-dev))
 * Gambar aset bersumber dari Unsplash (kategori otomotif/bengkel).
 
 Kamu tinggal buka file `README.md` lewat VS Code (atau text editor andalanmu), lalu **copypaste seluruh isi kotak di atas** ke dalamnya, terus di-save.
