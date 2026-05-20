@@ -202,90 +202,92 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- CONTACT / FEEDBACK -->
+    <section id="contact" class="contact">
+        <div class="contact-header">
+            <h3>HUBUNGI KAMI</h3>
+            <h2>Kirim Pesan / Feedback</h2>
+            <p>Punya pertanyaan atau masukan? Silakan isi form di bawah ini.</p>
+        </div>
 
-        <!-- FOOTER -->
-        <footer>
-            <!-- CONTACT / FEEDBACK -->
-            <section id="contact" class="contact">
-                <div class="contact-header">
-                    <h3>HUBUNGI KAMI</h3>
-                    <h2>Kirim Pesan / Feedback</h2>
-                    <p>Punya pertanyaan atau masukan? Silakan isi form di bawah ini.</p>
+        <div class="contact-card">
+            <!-- Ganti action form dengan Web3Forms -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
+
+                <!-- GANTI VALUE INI DENGAN ACCESS KEY DARI EMAIL ANDA -->
+                <input type="hidden" name="access_key" value="MASUKAN_CODE_KHUSUS_DARI_WEB3FORM">
+
+                <!-- Custom Subject Email -->
+                <input type="hidden" name="subject" value="Pesan Baru dari Website Cakarabangkit">
+                <input type="hidden" name="from_name" value="Cakarabangkit Web">
+
+                <div class="input-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" name="name" id="name" placeholder="Masukkan nama Anda" required>
                 </div>
 
-                <div class="contact-card">
-                    <!-- Ganti action form dengan Web3Forms -->
-                    <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
-
-                        <!-- GANTI VALUE INI DENGAN ACCESS KEY DARI EMAIL ANDA -->
-                        <input type="hidden" name="access_key" value="MASUKAN_CODE_KHUSUS_DARI_WEB3FORM">
-
-                        <!-- Custom Subject Email -->
-                        <input type="hidden" name="subject" value="Pesan Baru dari Website Cakarabangkit">
-                        <input type="hidden" name="from_name" value="Cakarabangkit Web">
-
-                        <div class="input-group">
-                            <label for="name">Nama Lengkap</label>
-                            <input type="text" name="name" id="name" placeholder="Masukkan nama Anda" required>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="email">Alamat Email</label>
-                            <input type="email" name="email" id="email" placeholder="contoh@email.com" required>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="message">Pesan / Feedback</label>
-                            <textarea name="message" id="message" rows="5"
-                                placeholder="Tulis pesan atau feedback Anda di sini..." required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn-submit">KIRIM PESAN <i data-feather="send"></i></button>
-                    </form>
-                </div>
-            </section>
-            <div class="footer-content">
-
-                <div class="footer-brand">
-                    <span class="logo-main">CAKARABANGKIT</span>
-                    <span class="logo-sub">CAR SERVICE</span>
-                    <p>Bengkel terpercaya di Malang sejak 2018.</p>
+                <div class="input-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" name="email" id="email" placeholder="contoh@email.com" required>
                 </div>
 
-                <div class="footer-links">
-                    <h4>Menu</h4>
-                    <a href="#hero">Home</a>
-                    <a href="#layanan">Services</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                <div class="input-group">
+                    <label for="message">Pesan / Feedback</label>
+                    <textarea name="message" id="message" rows="5"
+                        placeholder="Tulis pesan atau feedback Anda di sini..." required></textarea>
                 </div>
 
-                <div class="footer-contact">
-                    <h4>Kontak</h4>
-                    <p>✉️ cakarabangkit@gmail.com</p>
-                    <p>📍 Malang, Jawa Timur</p>
-                    <p>📱 +62 xxx-xxxx-xxxx</p>
-                    <p>⏰ Senin–Sabtu, 08.00–17.00</p>
-                </div>
+                <button type="submit" class="btn-submit">KIRIM PESAN <i data-feather="send"></i></button>
+            </form>
+        </div>
+    </section>
 
-                <div class="footer-social">
-                    <h4>Ikuti Kami</h4>
-                    <a href="#"><i data-feather="facebook"></i> Facebook</a>
-                    <a href="#"><i data-feather="instagram"></i> Instagram</a>
-                    <a href="#"><i data-feather="message-square"></i>WhatsApp</a>
-                </div>
+    <!-- FOOTER -->
+    <footer>
 
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <span class="logo-main">CAKARABANGKIT</span>
+                <span class="logo-sub">CAR SERVICE</span>
+                <p>Bengkel terpercaya di Malang sejak 2018.</p>
             </div>
-            <div class="footer-bottom">
-                <p>© 2026 Car Service Cakarabangkit. All rights reserved.</p>
-            </div>
-        </footer>
 
-        <script>
-            feather.replace();
-        </script>
-        <script src="app.js"></script>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <a href="#hero">Home</a>
+                <a href="#layanan">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Kontak</h4>
+                <p>✉️ cakarabangkit@gmail.com</p>
+                <p>📍 Malang, Jawa Timur</p>
+                <p>📱 +62 xxx-xxxx-xxxx</p>
+                <p>⏰ Senin–Sabtu, 08.00–17.00</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Ikuti Kami</h4>
+                <a href="#"><i data-feather="facebook"></i> Facebook</a>
+                <a href="#"><i data-feather="instagram"></i> Instagram</a>
+                <a href="#"><i data-feather="message-square"></i>WhatsApp</a>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Car Service Cakarabangkit. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 
 </html>
