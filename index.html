@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Cakarabangkit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- STYLE CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <!-- NAV LOGO -->
+        <div class="nav-logo">
+            <div class="logo-text">
+                <span class="logo-main">CAKARABANGKIT</span>
+                <span class="logo-sub">CAR SERVICE</span>
+            </div>
+        </div>
+        <!-- NAV LINKS -->
+        <div class="nav-links">
+            <a href="#"><span>HOME</span></a>
+            <a href="#services">SERVICES</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+            <div class="book-services"><a href="">BOOKING SERVICES</a></div>
+        </div>
+        <a class="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="hero-tag">Bengkel Terpercaya di Malang</p>
+            <h1>SERVIS CEPAT,<br><span>HASIL TERBAIK</span></h1>
+            <p class="hero-desc">Ditangani mekanik profesional dengan pengalaman 8+ tahun</p>
+            <a href="https://wa.me/62xxx" class="btn-cta">BOOKING NOW <span class="arrow">→</span></a>
+        </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan" class="layanan">
+        <div class="layanan-content">
+            <i class="logo-layanan" data-feather="settings"></i>
+            <div class="teks-content">
+                <h2>DIAGNOSA <br>MESIN</h2>
+                <p>Teknologi pemindaian terbaru untuk performa mesin yang optimal.</p>
+            </div>
+        </div>
+        <div class="layanan-content">
+            <i class="logo-layanan" data-feather="disc"></i>
+            <div class="teks-content">
+                <h2>PERBAIKAN <br>KAKI-KAKI</h2>
+                <p>Layanan rem dan ban untuk keamanan berkendara Anda.</p>
+            </div>
+        </div>
+        <div class="layanan-content">
+            <i class="logo-layanan" data-feather="tool"></i>
+            <div class="teks-content">
+                <h2>PEMELIHARAAN <br>&amp; MODIFIKASI</h2>
+                <p>Perawatan rutin dan modifikasi sesuai keinginan Anda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-us">
+                <h3>TENTANG KITA</h3>
+                <p>Cakarabangkit Car Service adalah destinasi utama Anda untuk perawatan dan perbaikan otomotif dengan
+                    standar tertinggi. Dengan dedikasi pada presisi mesin dan kepuasan pelanggan, tim ahli kami siap
+                    mengembalikan performa optimal kendaraan Anda. Kami memadukan teknologi terbaru dengan keahlian
+                    mekanik berpengalaman untuk memastikan setiap detail tertangani dengan sempurna.</p>
+            </div>
+            <div class="testimonial">
+                <h3>TESTIMONI</h3>
+                <div class="container-testimonial-item">
+                    <div class="testimonial-item">
+                        <h1>15+</h1>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <h1>100+</h1>
+                        <p>Mekanik Tersertifikasi & Pelanggan Puas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT CARD -->
+        <div class="about-card">
+            <div class="about-card-content">
+                <div class="section1">
+                    <img src="src/photo-1558981403-c5f9899a28bc.avif" alt="Bengkel profesional">
+                    <img src="src/photo-1486262715619-67b85e0b08d3.avif" alt="Mekanik bekerja">
+                    <img src="src/photo-1517524008697-84bbe3c3fd98.avif" alt="Servis kendaraan">
+                </div>
+                <div class="section2">
+                    <img src="src/photo-1583121274602-3e2820c69888.avif" alt="Hasil servis">
+                    <img src="src/photo-1596986952526-3be237187071.avif" alt="Tim mekanik">
+                    <img src="src/photo-1619642751034-765dfdf7c58e.avif" alt="Peralatan bengkel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- CONTACT / FEEDBACK -->
+        <section id="contact" class="contact">
+            <div class="contact-header">
+                <h3>HUBUNGI KAMI</h3>
+                <h2>Kirim Pesan / Feedback</h2>
+                <p>Punya pertanyaan atau masukan? Silakan isi form di bawah ini.</p>
+            </div>
+
+            <div class="contact-card">
+                <!-- Ganti action form dengan Web3Forms -->
+                <form action="https://api.web3forms.com/submit" method="POST" class="feedback-form">
+
+                    <!-- GANTI VALUE INI DENGAN ACCESS KEY DARI EMAIL ANDA -->
+                    <input type="hidden" name="access_key" value="984c768e-6040-4392-b95d-323b51836bea">
+
+                    <!-- Custom Subject Email -->
+                    <input type="hidden" name="subject" value="Pesan Baru dari Website Cakarabangkit">
+                    <input type="hidden" name="from_name" value="Cakarabangkit Web">
+
+                    <div class="input-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" name="name" id="name" placeholder="Masukkan nama Anda" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" name="email" id="email" placeholder="contoh@email.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Pesan / Feedback</label>
+                        <textarea name="message" id="message" rows="5"
+                            placeholder="Tulis pesan atau feedback Anda di sini..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">KIRIM PESAN <i data-feather="send"></i></button>
+                </form>
+            </div>
+        </section>
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <span class="logo-main">CAKARABANGKIT</span>
+                <span class="logo-sub">CAR SERVICE</span>
+                <p>Bengkel terpercaya di Malang sejak 2018.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Kontak</h4>
+                <p>✉️ cakarabangkit@gmail.com</p>
+                <p>📍 Malang, Jawa Timur</p>
+                <p>📱 +62 xxx-xxxx-xxxx</p>
+                <p>⏰ Senin–Sabtu, 08.00–17.00</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Ikuti Kami</h4>
+                <a href="#"><i data-feather="facebook"></i> Facebook</a>
+                <a href="#"><i data-feather="instagram"></i> Instagram</a>
+                <a href="#"><i data-feather="message-square"></i>WhatsApp</a>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Car Service Cakarabangkit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
