@@ -47,7 +47,8 @@ Untuk mengaktifkannya secara penuh:
 2. Buka file `index.html`.
 3. Cari baris berikut di dalam `<form>` bagian kontak:
 ```html
-<input type="hidden" name="access_key" value="984c768e-6040-4392-b95d-323b51836bea">
+
+<input type="hidden" name="access_key" value="masukan-code-khusus-dari-web3form">
 
 ```
 
